@@ -1,8 +1,8 @@
 
 /*----------------------------
   Guru - Portfolio Template 
-  Author : BootEx
-  Copyright 2017
+  Author : doubleyao
+  Copyright 2019
 ----------------------------*/
 (function ($) {
     "use strict";
