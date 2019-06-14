@@ -61,7 +61,7 @@ h6 {
 }
 
 h2 {
-    font-size: 23px;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
@@ -112,6 +112,17 @@ ol {
 .section-title {
     text-align: center;
     margin-bottom: 30px;
+}
+mark {
+    font-style: normal;
+    display: inline-block;
+    background-color: rgba(189, 189, 189, 0.3);
+    padding: 2px 5px;
+    margin: 0 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ff6611;
 }
 
 /* Preloader
@@ -448,15 +459,25 @@ nav ul li.current a {
 ==================================================*/
 
 .about-image img {
-    min-width: 100%;
+    border-radius: 15px;
+    margin-left: 50px;
+    width: 80%;
 }
 
 .about-text {
     margin-bottom: 20px;
 }
 
-.about-text h3 {
+.about-text h1 {
+    font-size: 30px;
     margin-bottom: 25px;
+}
+.about-text p {
+    font-family: "Alibaba PuHuiTi L",sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 26px;
+    margin-bottom: 10px;
 }
 
 .single-progress-item {
