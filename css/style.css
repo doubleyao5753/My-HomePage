@@ -11,7 +11,6 @@
   - Header -
   - Intro -
   - About -
-  - Services -
   - Portfoilo -
   - Testinonial -
   - Blog
@@ -24,9 +23,7 @@
 
 /* General
 ==================================================*/
-/*import Google Web fonts 引入谷歌字体导致页面加载超级慢 */
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto');*/
-<!--
+
 
 /*import Alibaba web font*/
 
@@ -79,6 +76,7 @@ p {
     color: #888;
     line-height: 27px;
     font-family: 'Alibaba PuHuiTi L', sans-serif;
+    font-weight: 300;
 }
 
 ul,
@@ -111,7 +109,7 @@ ol {
 
 .section-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin: -20px 0 30px;
 }
 mark {
     font-style: normal;
@@ -470,7 +468,7 @@ nav ul li.current a {
 
 .about-text h1 {
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .about-text p {
     font-family: "Alibaba PuHuiTi L",sans-serif;
@@ -644,6 +642,8 @@ nav ul li.current a {
 
 .work-item {
     position: relative;
+    box-shadow: 0 2px 14px -3px rgba(0,0,0,.3);;
+
 }
 
 .work-item img {
@@ -720,12 +720,13 @@ nav ul li.current a {
 .work-popup-content h3 {
     font-size: 26px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .work-popup-content p {
-    text-align: left;
-    line-height: 23px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
 }
 
 .mfp-close-btn-in .mfp-close {
@@ -746,9 +747,23 @@ nav ul li.current a {
     background: #f6f6f6;
 }
 
+.brand-item {
+    text-align: center;
+
+}
+
 .brand-item img {
+    width: 185px;
+    height: 87px;
     max-width: 100%;
 }
+
+.brand-item span {
+    color: #333333;
+    line-height: 56px;
+    font-weight: 700;
+}
+
 
 /* Blog
 ==================================================*/
@@ -765,18 +780,24 @@ nav ul li.current a {
 }
 
 .blog-item-text {
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .blog-item-text h3 {
     color: #333;
-    margin-bottom: 15px;
+    margin: 10px 0;
     font-weight: 600;
+}
+
+.blog-item-text p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
 }
 
 .blog-item-text h5 {
     margin-top: 10px;
-    font-size: 11px;
+    font-size: 14px;
     text-transform: uppercase;
     color: #616161;
 }
@@ -936,7 +957,7 @@ blockquote {
 
 .site-button {
     padding: 13px 40px;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background: none;
