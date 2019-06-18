@@ -469,12 +469,12 @@ nav ul li.current a {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.about-text p {
-    font-family: "Alibaba PuHuiTi L",sans-serif;
-    font-size: 18px;
-    font-weight: lighter;
-    line-height: 26px;
-    margin-bottom: 10px;
+.about-image p {
+    font-family: 'bykaishu70001a109c6a351da7c',sans-serif;;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #1e1e1e;
 }
 
 .single-progress-item {
@@ -1171,8 +1171,23 @@ footer p {
         font-size: 50px;
     }
 
+    .intro-content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
     .about-image {
         margin-bottom: 30px;
+    }
+
+    .about-image p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about-text h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
     }
 
     .service-item {
@@ -1247,7 +1262,7 @@ footer p {
 
 @media only screen and (max-width: 479px) {
     .intro-content h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .about-image {
