@@ -110,8 +110,8 @@
         dots: false,
         autoplay: true,
         margin:5,
-        autoplayTimeout: 3000,
-        slideSpeed: 1000,
+        autoplayTimeout: 2000,
+        slideSpeed: 2000,
         responsive:{
 			0:{items:2,},
 			480:{items:3,},

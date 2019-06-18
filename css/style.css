@@ -112,26 +112,16 @@ ol {
     margin-bottom: 30px;
 }
 
-.split-line:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: rgba(204,204,204,0.5);
-    position: relative;
-    bottom: 70px;
-    left: 0;
-}
 mark {
     font-style: normal;
     display: inline-block;
-    background-color: rgba(189, 189, 189, 0.3);
+    background-color: rgba(249, 255, 136, 0.75);
     padding: 2px 5px;
     margin: 0 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    color: #ff6611;
+    color: #ff1f7c;
 }
 
 /* Preloader
@@ -467,10 +457,8 @@ nav ul li.current a {
 /* About
 ==================================================*/
 
-.about-image img {
-    border-radius: 15px;
-    margin-left: 50px;
-    width: 80%;
+.about-section {
+    background-color: rgb(251,251,251);
 }
 
 .about-text {
@@ -757,6 +745,7 @@ nav ul li.current a {
 
 .testinonial-section {
     background: #f6f6f6;
+    position: relative;
 }
 
 .brand-item {
@@ -774,6 +763,22 @@ nav ul li.current a {
     color: #333333;
     line-height: 56px;
     font-weight: 700;
+}
+
+.section-tip {
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-family: "Alibaba PuHuiTi L",sans-serif;
+    font-weight: 300;
+    color: #bfbfbf;
 }
 
 
