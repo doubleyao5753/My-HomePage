@@ -1,6 +1,5 @@
 
 /*----------------------------
-  Guru - Portfolio Template 
   Author : doubleyao
   Copyright 2019
 ----------------------------*/
@@ -9,12 +8,18 @@
 
     //======= PRELOADER ========//
     $(window).on('load',function () {
-        $('#status').fadeOut(); 
         $('#preloader').delay(550).fadeOut('slow');
         $('body').delay(550).css({
             'overflow': 'visible'
         });
     });
+
+    //======= Intro Animation ========//
+    $(window).delay(550).on('load',function () {
+        $('.intro-content h1').stop().animate({"letter-spacing":"10px"},1500)
+        $('.social a').stop().animate({"opacity":"1"},{duration:1000,easing:'linear'})
+    })
+    
 
     //======= SITE NAVBAR ========//
     var navMenu = $('.nav-menu')
@@ -52,6 +57,16 @@
 			e.preventDefault();
 		}
 	});
+
+    // 全屏首页监听鼠标滚轮事件  ----  Waiting to optimize
+    $(document).on('mousewheel DOMMouseScroll', function (e) {
+        var delta = (e.originalEvent.wheelDelta && (e.originalEvent.wheelDelta > 0 ? 1 : -1)) || // chrome & ie
+            (e.originalEvent.detail && (e.originalEvent.detail > 0 ? -1 : 1)); // firefox
+        $(document).off("mousewheel DOMMouseScroll");
+        if (delta < 0) {
+            $('html, body').stop().animate( { scrollTop: $($('.down').attr('href')).offset().top - 70 }, 750);
+        }
+    })
 
 
     //======= PROGRESS BAR  ========//

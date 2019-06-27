@@ -358,6 +358,7 @@ nav ul li.current a {
 .intro-content h1 {
     font-family: "intro font", sans-serif;
     font-size: 80px;
+    letter-spacing: 50px;
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
@@ -371,6 +372,7 @@ nav ul li.current a {
 .social a {
     font-size: 28px;
     margin: 0 13px;
+    opacity: 0;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.4s;
@@ -387,7 +389,6 @@ nav ul li.current a {
     color: #e7e7e7;
     font-weight: lighter;
     line-height: 50px;
-
 }
 
 .down {
