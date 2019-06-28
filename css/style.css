@@ -372,7 +372,7 @@ nav ul li.current a {
 .social a {
     font-size: 28px;
     margin: 0 13px;
-    opacity: 0;
+    display: none;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.4s;
@@ -389,6 +389,7 @@ nav ul li.current a {
     color: #e7e7e7;
     font-weight: lighter;
     line-height: 50px;
+    display: none;
 }
 
 .down {

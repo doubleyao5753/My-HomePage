@@ -16,8 +16,9 @@
 
     //======= Intro Animation ========//
     $(window).delay(550).on('load',function () {
-        $('.intro-content h1').stop().animate({"letter-spacing":"10px"},1500)
-        $('.social a').stop().animate({"opacity":"1"},{duration:1000,easing:'linear'})
+        $('.intro-content h1').stop().animate({"letter-spacing":"10px"},1500);
+        $('.social a').fadeIn(2500);
+        $('.intro-content p').slideDown(2000)
     })
     
 
